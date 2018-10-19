@@ -1,0 +1,6 @@
+framework module Pods_soapdObserver {
+  umbrella header "Pods-soapdObserver-umbrella.h"
+
+  export *
+  module * { export * }
+}

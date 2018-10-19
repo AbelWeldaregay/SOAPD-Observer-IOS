@@ -194,7 +194,7 @@ class LoggedIn: UIViewController {
         }
         
         //the cancel action doing nothing
-        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { (_) in }
+       // let cancelAction = UIAlertAction(title: "Cancel", style: .cancel) { (_) in }
         
         //adding textfields to our dialog box
         alertController.addTextField { (textField) in
@@ -209,7 +209,7 @@ class LoggedIn: UIViewController {
         
         //adding the action to dialogbox
         alertController.addAction(confirmAction)
-        alertController.addAction(cancelAction)
+        //alertController.addAction(cancelAction)
         
         //finally presenting the dialog box
         self.present(alertController, animated: true, completion: nil)
